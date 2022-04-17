@@ -1,0 +1,2 @@
+left rectangle color = 191718
+circle color = de3a2d

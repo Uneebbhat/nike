@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: inter;
+    background-color: white;
+}
+
+.navbar-left{
+    background-color: #191718;
+    height: 625px;
+    width: 400px;
+}
+
+ul{
+    display: flex;
+    padding: 0 40px;
+    list-style: none;
+    padding-left: 2px;
+}
+
+ul li{
+    padding-top: 25px;
+}
+
+ul li a{
+    padding-left: -50px;
+    text-decoration: none;
+    color: white;
+    padding: 35px;
+}
+
+ul li a:hover{
+    font-weight: bold;
+}
+
+.circle{
+    position: absolute;
+    background-color: #de3a2d;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin-top: -450px;
+    margin-left: 250px;
+    box-shadow: 3px 3px 60px 10px #de3a2d;
+}
+
+.shoe1{
+    position: relative;
+    width: 360px;
+    height: 320px;
+    margin-top: -20px;
+    margin-left: -15px;
+    transform: rotate(20deg);
+}
+
+/* Right Side */
+
+.navbar-right{
+    margin-top: -600px;
+    display: flex;
+    justify-content: right;
+}
+
+.logo{
+    padding: 0 40px;
+    width: 90px;
+    cursor: pointer;
+    /* background-color: black; */
+}
+
+.shop{
+    cursor: pointer;
+    width: 40px;
+    margin-right: 50px;
+    /* background-color: yellowgreen; */
+}
+
+.search{
+    margin-right: 50px;
+    width: 40px;
+    cursor: pointer;
+    /* background-color: purple; */
+}
+
+.text{
+    margin-top: 100px;
+}
+
+.first{
+    font-weight: lighter;
+    font-size: 4rem;
+}
+
+.second{
+    font-weight: lighter;
+    font-size: 4rem;
+}
+
+.third{
+    font-weight: light;
+    font-size: 2.3rem;
+}
+
+.text span{
+    color: black;
+    margin-left: 700px;
+}
+
+.next{
+    margin-left: 700px;
+    margin-top: 50px;
+}
+
+.shoe2{
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.shoe3{
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.shoe4{
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.arrow1{
+    width: 50px;
+    /* border: 1px solid black; */
+    /* border-radius: 10px; */
+    cursor: pointer;
+}
+
+.arrow2{
+    width: 50px;
+    /* border: 1px solid black; */
+    /* border-radius: 10px; */
+    cursor: pointer;
+}
+
+.btn{
+    background-color: #191718;
+    color: white;
+    border-style: none;
+    margin-left: 130px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    box-shadow: 3px 3px 40px 8px #de3a2d;
+    background-color: #de3a2d;
+}
