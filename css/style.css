@@ -33,9 +33,9 @@ ul li a{
     padding: 35px;
 }
 
-ul li a:hover{
+/* ul li a:hover{
     font-weight: bold;
-}
+} */
 
 .circle{
     position: absolute;
@@ -53,9 +53,95 @@ ul li a:hover{
     width: 360px;
     height: 320px;
     margin-top: -20px;
-    margin-left: -15px;
+    margin-left: -20px;
     transform: rotate(20deg);
+    animation-name: shoe1;
+    animation-duration: 0000.5s;
 }
+
+@keyframes shoe1 {
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(20deg);
+    }
+}
+
+.mendrop{
+    width: 20px;
+    height: 20px;
+    margin-top: 25px;
+    margin-left: -25px;
+    display: inherit;
+    cursor: pointer;
+}
+
+.heading{
+    margin-top: 60px;
+    margin-left: -30px;
+    color: white;
+    cursor: pointer;
+}
+.heading2{
+    margin-top: 90px;
+    margin-left: -50px;
+    color: white;
+    cursor: pointer;
+}
+.heading3{
+    margin-top: 120px;
+    margin-left: -50px;
+    color: white;
+    cursor: pointer;
+}
+
+.active1{
+    display: none;
+}
+.active2{
+    display: none;
+}
+.active3{
+    display: none;
+}
+
+.womendrop{
+    width: 20px;
+    height: 20px;
+    margin-top: 25px;
+    margin-left: -25px;
+    cursor: pointer;
+    display: inherit;
+}
+.active4{
+    display: none;
+}
+.active5{
+    display: none;
+}
+.active6{
+    display: none;
+}
+
+.kiddrop{
+    width: 20px;
+    height: 20px;
+    margin-top: 25px;
+    margin-left: -25px;
+    cursor: pointer;
+    display: inherit;
+}
+.active7{
+    display: none;
+}
+.active8{
+    display: none;
+}
+.active9{
+    display: none;
+}
+
 
 /* Right Side */
 
@@ -74,16 +160,28 @@ ul li a:hover{
 
 .shop{
     cursor: pointer;
-    width: 40px;
+    width: 50px;
     margin-right: 50px;
     /* background-color: yellowgreen; */
 }
 
 .search{
     margin-right: 50px;
-    width: 40px;
+    width: 50px;
     cursor: pointer;
     /* background-color: purple; */
+}
+
+.searchbar{
+    padding: 0px 8px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: inherit;
+}
+
+.active{
+    display: none;
+    transition: all 2s;
 }
 
 .text{
@@ -91,17 +189,17 @@ ul li a:hover{
 }
 
 .first{
-    font-weight: lighter;
+    font-weight: bolder;
     font-size: 4rem;
 }
 
 .second{
-    font-weight: lighter;
+    font-weight: bolder;
     font-size: 4rem;
 }
 
 .third{
-    font-weight: light;
+    font-weight: 200;
     font-size: 2.3rem;
 }
 
@@ -122,6 +220,12 @@ ul li a:hover{
     margin-right: 5px;
     cursor: pointer;
 }
+
+.shoe2:hover{
+    background-color: rgb(216, 216, 216);
+    transition: 0.3s;
+}
+
 .shoe3{
     width: 100px;
     border: 1px solid black;
@@ -129,11 +233,22 @@ ul li a:hover{
     margin-right: 5px;
     cursor: pointer;
 }
+
+.shoe3:hover{
+    background-color: rgb(216, 216, 216);
+    transition: 0.3s;
+}
+
 .shoe4{
     width: 100px;
     border: 1px solid black;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.shoe4:hover:hover{
+    background-color: rgb(216, 216, 216);
+    transition: 0.3s;
 }
 
 .arrow1{
@@ -161,6 +276,7 @@ ul li a:hover{
 }
 
 .btn:hover{
-    box-shadow: 3px 3px 40px 8px #de3a2d;
+    box-shadow: 3px 3px 60px 10px #de3a2d;
     background-color: #de3a2d;
+    transition: 0.2s;
 }
