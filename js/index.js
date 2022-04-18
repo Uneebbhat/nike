@@ -80,3 +80,25 @@ toggleButton3.addEventListener('click', () => {
     navbarLinks9.classList.toggle('active9')
     console.log('clicked');
 })
+
+//CHANGE THE PIC //FORWORD
+function changeImg() {
+    var image = document.getElementById('myImg');
+    if (image.src.match("img/nike2.0.png")) {
+        image.src = "img/nike3.0.png";
+    }
+    else{
+        image.src = "img/nike4.0.png";
+    }
+}
+
+//CHANGE THE PIC //BACKWORD
+function changeImg1() {
+    var image = document.getElementById('myImg');
+    if (image.src.match("img/nike4.0.png")) {
+        image.src = "img/nike3.0.png";
+    }
+    else{
+        image.src = "img/nike2.0.png";
+    }
+}
